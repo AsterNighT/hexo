@@ -29,6 +29,8 @@ jobs:
         run: |
           npm install -g hexo-cli
           npm install
+          git config --global user.email "klxjt99@outlook.com"
+          git config --global user.name "AsterNighT"
           hexo g -d
         
       
