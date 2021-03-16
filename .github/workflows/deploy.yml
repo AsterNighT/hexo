@@ -19,6 +19,8 @@ jobs:
           node-version: 14.16.0
       - name: checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
       - name: Setup SSH
         uses: kielabokkie/ssh-key-and-known-hosts-action@v1.1.0
         with:
