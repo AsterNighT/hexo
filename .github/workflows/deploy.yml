@@ -31,6 +31,6 @@ jobs:
           npm install
           git config --global user.email "klxjt99@outlook.com"
           git config --global user.name "AsterNighT"
-          hexo g -d
+          hexo g -d --debug
         
       
