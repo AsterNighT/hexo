@@ -1,4 +1,0 @@
----
-title: ender-lilies
-tags:
----
