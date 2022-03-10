@@ -113,9 +113,3 @@ search:
   format: html
   limit: 10000
 
-footer:
-  since: 2020
-  beian:
-    enable: true
-    icp: 浙ICP备2021007705号-1
-
